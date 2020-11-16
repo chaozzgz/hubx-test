@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lifebyte.hubx.admin.mapper.GlobalAppMapper">
+  <resultMap id="BaseResultMap" type="com.lifebyte.hubx.data.entity.account.GlobalAppVO">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="comment" jdbcType="VARCHAR" property="comment" />
+    <result column="is_valid" jdbcType="TINYINT" property="isValid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, title, `comment`, is_valid
+  </sql>
+
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.lifebyte.hubx.data.entity.account.GlobalAppVO" useGeneratedKeys="true">
+    insert into global_app (title, `comment`, is_valid
+      )
+    values (#{title,jdbcType=VARCHAR}, #{comment,jdbcType=VARCHAR}, #{isValid,jdbcType=TINYINT}
+      )
+  </insert>
+
+
+  <select id="queryAllGlobalApps" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List"/>
+    from global_app
+    where is_valid = 1
+  </select>
+</mapper>
