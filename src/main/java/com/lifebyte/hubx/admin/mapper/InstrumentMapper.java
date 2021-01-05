@@ -1,8 +1,7 @@
 package com.lifebyte.hubx.admin.mapper;
 
-import com.lifebyte.hubx.data.entity.account.TradingCurrencyVO;
-import com.lifebyte.hubx.data.entity.account.TradingLeverageVO;
-import com.lifebyte.hubx.data.entity.symbol.SymbolDisplayNameVO;
+import com.lifebyte.hubx.data.entity.account.HubxCurrencyVO;
+import com.lifebyte.hubx.data.entity.account.HubxLeverageVO;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -10,8 +9,8 @@ import java.util.List;
 @Mapper
 public interface InstrumentMapper {
 
-    List<TradingCurrencyVO> queryAllCurrencies();
+    List<HubxCurrencyVO> queryAllCurrencies();
 
-    List<TradingLeverageVO> queryAllLeverages();
+    List<HubxLeverageVO> queryAllLeverages();
 
 }
