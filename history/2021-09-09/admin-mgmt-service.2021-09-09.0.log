@@ -1,0 +1,164 @@
+2021-09-09 17:23:54.279  INFO 17477 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$840e6db9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 17:23:54.364  INFO 17477 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : No active profile set, falling back to default profiles: default
+2021-09-09 17:23:55.110  WARN 17477 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-09-09 17:23:55.291  INFO 17477 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c64afe2a-ba51-3b66-bbdb-5389a8ca6f37
+2021-09-09 17:23:55.376  INFO 17477 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$67f46abc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 17:23:55.389  INFO 17477 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.lifebyte.hubx.cache.config.RedissonClientConfig' of type [com.lifebyte.hubx.cache.config.RedissonClientConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 17:23:55.393  INFO 17477 --- [main] c.l.h.cache.config.RedissonClientConfig  : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-09 17:23:55.477  INFO 17477 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-09 17:23:57.805  WARN 17477 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheContainerPostProcessor': Unsatisfied dependency expressed through field 'client'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in com.lifebyte.hubx.cache.config.RedissonClientConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+2021-09-09 17:23:57.815  INFO 17477 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-09 17:23:57.829 ERROR 17477 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheContainerPostProcessor': Unsatisfied dependency expressed through field 'client'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in com.lifebyte.hubx.cache.config.RedissonClientConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:240)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.lifebyte.hubx.admin.AdminMgmtServiceApp.main(AdminMgmtServiceApp.java:15)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in com.lifebyte.hubx.cache.config.RedissonClientConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1244)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 32 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:160)
+	at org.redisson.misc.RedissonPromise.lambda$onComplete$0(RedissonPromise.java:183)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:511)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:485)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:424)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:121)
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:96)
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:330)
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$1(ConnectionPool.java:296)
+	at org.redisson.misc.RedissonPromise.lambda$onComplete$0(RedissonPromise.java:183)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:511)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:504)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:483)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:424)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:121)
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:96)
+	at org.redisson.client.RedisClient$2$2.run(RedisClient.java:249)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:466)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: 127.0.0.1/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:636)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:500)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462)
+	... 3 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	... 11 common frames omitted
+
+2021-09-09 17:30:35.274  INFO 18692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$83fe2176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 17:30:35.344  INFO 18692 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : No active profile set, falling back to default profiles: default
+2021-09-09 17:30:35.896  WARN 18692 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-09-09 17:30:36.059  INFO 18692 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c64afe2a-ba51-3b66-bbdb-5389a8ca6f37
+2021-09-09 17:30:36.130  INFO 18692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$67e41e79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 17:30:36.141  INFO 18692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.lifebyte.hubx.cache.config.RedissonClientConfig' of type [com.lifebyte.hubx.cache.config.RedissonClientConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 17:30:36.145  INFO 18692 --- [main] c.l.h.cache.config.RedissonClientConfig  : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-09 17:30:36.208  INFO 18692 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-09 17:30:36.476  INFO 18692 --- [redisson-netty-2-16] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-09 17:30:36.477  INFO 18692 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-09 17:30:36.528  INFO 18692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'client' of type [org.redisson.Redisson] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 17:30:36.536  INFO 18692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$83fe2176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 17:30:36.752  INFO 18692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7999 (http)
+2021-09-09 17:30:36.777  INFO 18692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-09 17:30:36.777  INFO 18692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2021-09-09 17:30:36.871  INFO 18692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-09 17:30:36.872  INFO 18692 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1518 ms
+2021-09-09 17:30:36.954  WARN 18692 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-09 17:30:36.954  INFO 18692 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-09 17:30:36.964  INFO 18692 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6ecc02bb
+2021-09-09 17:30:37.496  INFO 18692 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-09-09 17:30:37.568  INFO 18692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-09 17:30:37.568  INFO 18692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-09 17:30:37.660  INFO 18692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-09 17:30:37.661  INFO 18692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-09 17:30:37.983  WARN 18692 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-09 17:30:37.983  INFO 18692 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-09 17:30:38.143  INFO 18692 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-09 17:30:38.247  INFO 18692 --- [main] c.l.hubx.cache.config.RedisCacheConfig   : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-09 17:30:38.252  INFO 18692 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-09 17:30:38.268  INFO 18692 --- [redisson-netty-5-12] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-09 17:30:38.269  INFO 18692 --- [redisson-netty-5-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-09 17:30:38.635  INFO 18692 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-09 17:30:38.666  INFO 18692 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-09 17:30:38.666  INFO 18692 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2021-09-09 17:30:38.673  INFO 18692 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1631172638672 with initial instances count: 0
+2021-09-09 17:30:38.703  INFO 18692 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2021-09-09 17:30:38.704  INFO 18692 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:7999/eureka/]
+2021-09-09 17:30:38.846  INFO 18692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-09 17:30:38.846  INFO 18692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-09 17:30:38.846  INFO 18692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-09 17:30:38.846  INFO 18692 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-09 17:30:38.940  INFO 18692 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:7999/eureka/
+2021-09-09 17:30:38.947  INFO 18692 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2021-09-09 17:30:38.948  INFO 18692 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2021-09-09 17:30:38.957  INFO 18692 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-09-09 17:30:39.027  INFO 18692 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-MGMT-SERVICE with eureka with status UP
+2021-09-09 17:30:39.029  INFO 18692 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2021-09-09 17:30:39.029  INFO 18692 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-09-09 17:30:39.030  INFO 18692 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2021-09-09 17:30:39.039  INFO 18692 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2021-09-09 17:30:39.039  INFO 18692 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2021-09-09 17:30:39.039  INFO 18692 --- [Thread-19] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2021-09-09 17:30:39.039  INFO 18692 --- [Thread-19] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2021-09-09 17:30:39.039  INFO 18692 --- [Thread-19] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2021-09-09 17:30:39.047  INFO 18692 --- [Thread-19] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2021-09-09 17:30:39.199  INFO 18692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7999 (http) with context path ''
+2021-09-09 17:30:39.200  INFO 18692 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7999
+2021-09-09 17:30:39.204  INFO 18692 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : Started AdminMgmtServiceApp in 4.71 seconds (JVM running for 5.464)
+2021-09-09 17:30:39.771  INFO 18692 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-09 17:30:39.773  INFO 18692 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-09 17:30:39.773  INFO 18692 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-09 17:30:39.781  INFO 18692 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-09-09 17:30:39.995  INFO 18692 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-09 17:31:27.147  INFO 18692 --- [Thread-22] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-MGMT-SERVICE with eureka with status DOWN
+2021-09-09 17:31:27.149  INFO 18692 --- [Thread-22] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2021-09-09 17:31:27.157  INFO 18692 --- [Thread-22] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2021-09-09 17:31:27.226  INFO 18692 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-09 17:31:27.238  INFO 18692 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-09 17:31:27.239  INFO 18692 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-09 17:31:27.239  INFO 18692 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-09 17:31:27.247  INFO 18692 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

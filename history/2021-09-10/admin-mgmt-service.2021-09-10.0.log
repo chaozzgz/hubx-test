@@ -1,0 +1,1209 @@
+2021-09-10 00:48:44.794  INFO 23738 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fba8f7f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 00:48:44.876  INFO 23738 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : No active profile set, falling back to default profiles: default
+2021-09-10 00:48:45.567  WARN 23738 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-09-10 00:48:45.747  INFO 23738 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c64afe2a-ba51-3b66-bbdb-5389a8ca6f37
+2021-09-10 00:48:45.830  INFO 23738 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$df8ef4f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 00:48:45.843  INFO 23738 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.lifebyte.hubx.cache.config.RedissonClientConfig' of type [com.lifebyte.hubx.cache.config.RedissonClientConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 00:48:45.847  INFO 23738 --- [main] c.l.h.cache.config.RedissonClientConfig  : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 00:48:45.932  INFO 23738 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 00:48:46.301  INFO 23738 --- [redisson-netty-2-14] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 00:48:46.304  INFO 23738 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 00:48:46.350  INFO 23738 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'client' of type [org.redisson.Redisson] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 00:48:46.357  INFO 23738 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fba8f7f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 00:48:46.540  INFO 23738 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7999 (http)
+2021-09-10 00:48:46.561  INFO 23738 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-10 00:48:46.562  INFO 23738 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2021-09-10 00:48:46.662  INFO 23738 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-10 00:48:46.662  INFO 23738 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1774 ms
+2021-09-10 00:48:46.739  WARN 23738 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 00:48:46.739  INFO 23738 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 00:48:46.748  INFO 23738 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4d09cade
+2021-09-10 00:48:47.287  INFO 23738 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-09-10 00:48:47.356  INFO 23738 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-10 00:48:47.356  INFO 23738 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-10 00:48:47.450  INFO 23738 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-10 00:48:47.450  INFO 23738 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-10 00:48:47.794  WARN 23738 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 00:48:47.794  INFO 23738 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 00:48:47.952  INFO 23738 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-10 00:48:48.061  INFO 23738 --- [main] c.l.hubx.cache.config.RedisCacheConfig   : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 00:48:48.064  INFO 23738 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 00:48:48.092  INFO 23738 --- [redisson-netty-5-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 00:48:48.092  INFO 23738 --- [redisson-netty-5-17] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 00:48:48.503  INFO 23738 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-10 00:48:48.531  INFO 23738 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-10 00:48:48.532  INFO 23738 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2021-09-10 00:48:48.540  INFO 23738 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1631198928539 with initial instances count: 0
+2021-09-10 00:48:48.571  INFO 23738 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2021-09-10 00:48:48.572  INFO 23738 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:7999/eureka/]
+2021-09-10 00:48:48.714  INFO 23738 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-10 00:48:48.714  INFO 23738 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-10 00:48:48.714  INFO 23738 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-10 00:48:48.714  INFO 23738 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-10 00:48:48.820  INFO 23738 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:7999/eureka/
+2021-09-10 00:48:48.828  INFO 23738 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2021-09-10 00:48:48.829  INFO 23738 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2021-09-10 00:48:48.838  INFO 23738 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-09-10 00:48:48.907  INFO 23738 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-MGMT-SERVICE with eureka with status UP
+2021-09-10 00:48:48.909  INFO 23738 --- [Thread-21] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2021-09-10 00:48:48.909  INFO 23738 --- [Thread-21] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-09-10 00:48:48.910  INFO 23738 --- [Thread-21] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2021-09-10 00:48:48.920  INFO 23738 --- [Thread-21] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2021-09-10 00:48:48.920  INFO 23738 --- [Thread-21] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2021-09-10 00:48:48.920  INFO 23738 --- [Thread-21] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2021-09-10 00:48:48.920  INFO 23738 --- [Thread-21] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2021-09-10 00:48:48.920  INFO 23738 --- [Thread-21] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2021-09-10 00:48:48.929  INFO 23738 --- [Thread-21] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2021-09-10 00:48:48.936  INFO 23738 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7999 (http) with context path ''
+2021-09-10 00:48:48.938  INFO 23738 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7999
+2021-09-10 00:48:48.942  INFO 23738 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : Started AdminMgmtServiceApp in 5.226 seconds (JVM running for 6.128)
+2021-09-10 00:48:49.356  INFO 23738 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-10 00:48:49.357  INFO 23738 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-10 00:48:49.358  INFO 23738 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-10 00:48:49.365  INFO 23738 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-09-10 00:48:49.601  INFO 23738 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-10 00:48:58.486  INFO 23738 --- [Thread-23] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-MGMT-SERVICE with eureka with status DOWN
+2021-09-10 00:48:58.488  INFO 23738 --- [Thread-23] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2021-09-10 00:48:58.494  INFO 23738 --- [Thread-23] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2021-09-10 00:48:58.590  INFO 23738 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-10 00:48:58.603  INFO 23738 --- [Thread-23] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-10 00:48:58.603  INFO 23738 --- [Thread-23] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-10 00:48:58.603  INFO 23738 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-10 00:48:58.615  INFO 23738 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-10 00:49:39.134  INFO 23753 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$daee50f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 00:49:39.209  INFO 23753 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : No active profile set, falling back to default profiles: default
+2021-09-10 00:49:39.799  WARN 23753 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-09-10 00:49:39.963  INFO 23753 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c64afe2a-ba51-3b66-bbdb-5389a8ca6f37
+2021-09-10 00:49:40.039  INFO 23753 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bed44dfa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 00:49:40.050  INFO 23753 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.lifebyte.hubx.cache.config.RedissonClientConfig' of type [com.lifebyte.hubx.cache.config.RedissonClientConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 00:49:40.053  INFO 23753 --- [main] c.l.h.cache.config.RedissonClientConfig  : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 00:49:40.115  INFO 23753 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 00:49:40.478  INFO 23753 --- [redisson-netty-2-16] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 00:49:40.483  INFO 23753 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 00:49:40.578  INFO 23753 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'client' of type [org.redisson.Redisson] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 00:49:40.586  INFO 23753 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$daee50f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 00:49:40.781  INFO 23753 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7999 (http)
+2021-09-10 00:49:40.802  INFO 23753 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-10 00:49:40.802  INFO 23753 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2021-09-10 00:49:40.924  INFO 23753 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-10 00:49:40.924  INFO 23753 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1706 ms
+2021-09-10 00:49:41.042  WARN 23753 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 00:49:41.042  INFO 23753 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 00:49:41.051  INFO 23753 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@25ffd826
+2021-09-10 00:49:41.795  INFO 23753 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-09-10 00:49:41.870  INFO 23753 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-10 00:49:41.870  INFO 23753 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-10 00:49:41.966  INFO 23753 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-10 00:49:41.966  INFO 23753 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-10 00:49:42.411  WARN 23753 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 00:49:42.411  INFO 23753 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 00:49:42.573  INFO 23753 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-10 00:49:42.668  INFO 23753 --- [main] c.l.hubx.cache.config.RedisCacheConfig   : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 00:49:42.672  INFO 23753 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 00:49:42.743  INFO 23753 --- [redisson-netty-5-18] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 00:49:42.743  INFO 23753 --- [redisson-netty-5-19] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 00:49:43.177  INFO 23753 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-10 00:49:43.198  INFO 23753 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-10 00:49:43.198  INFO 23753 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2021-09-10 00:49:43.203  INFO 23753 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1631198983202 with initial instances count: 0
+2021-09-10 00:49:43.249  INFO 23753 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2021-09-10 00:49:43.251  INFO 23753 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://0.0.0.0:7999/eureka/]
+2021-09-10 00:49:43.447  INFO 23753 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-10 00:49:43.447  INFO 23753 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-10 00:49:43.447  INFO 23753 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-10 00:49:43.447  INFO 23753 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-10 00:49:43.571  INFO 23753 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://0.0.0.0:7999/eureka/
+2021-09-10 00:49:43.578  INFO 23753 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2021-09-10 00:49:43.579  INFO 23753 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2021-09-10 00:49:43.590  INFO 23753 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-09-10 00:49:43.670  INFO 23753 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-MGMT-SERVICE with eureka with status UP
+2021-09-10 00:49:43.676  INFO 23753 --- [Thread-20] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2021-09-10 00:49:43.676  INFO 23753 --- [Thread-20] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-09-10 00:49:43.677  INFO 23753 --- [Thread-20] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2021-09-10 00:49:43.689  INFO 23753 --- [Thread-20] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2021-09-10 00:49:43.690  INFO 23753 --- [Thread-20] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2021-09-10 00:49:43.690  INFO 23753 --- [Thread-20] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2021-09-10 00:49:43.690  INFO 23753 --- [Thread-20] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2021-09-10 00:49:43.690  INFO 23753 --- [Thread-20] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2021-09-10 00:49:43.702  INFO 23753 --- [Thread-20] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2021-09-10 00:49:43.715  INFO 23753 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7999 (http) with context path ''
+2021-09-10 00:49:43.716  INFO 23753 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7999
+2021-09-10 00:49:43.719  INFO 23753 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : Started AdminMgmtServiceApp in 5.441 seconds (JVM running for 5.891)
+2021-09-10 00:49:44.432  INFO 23753 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-10 00:49:44.433  INFO 23753 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-10 00:49:44.434  INFO 23753 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-10 00:49:44.440  INFO 23753 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-09-10 00:49:44.603  INFO 23753 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-10 00:50:43.691  INFO 23753 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 00:51:43.695  INFO 23753 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 00:52:43.701  INFO 23753 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 00:53:25.252  INFO 23753 --- [Thread-22] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-MGMT-SERVICE with eureka with status DOWN
+2021-09-10 00:53:25.254  INFO 23753 --- [Thread-22] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2021-09-10 00:53:25.260  INFO 23753 --- [Thread-22] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2021-09-10 00:53:25.356  INFO 23753 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-10 00:53:25.369  INFO 23753 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-10 00:53:25.369  INFO 23753 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-10 00:53:25.370  INFO 23753 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-10 00:53:25.379  INFO 23753 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-10 10:20:02.313  INFO 25049 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$adf38bda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:20:02.385  INFO 25049 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : No active profile set, falling back to default profiles: default
+2021-09-10 10:20:02.981  WARN 25049 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-09-10 10:20:03.149  INFO 25049 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c64afe2a-ba51-3b66-bbdb-5389a8ca6f37
+2021-09-10 10:20:03.231  INFO 25049 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$91d988dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:20:03.243  INFO 25049 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.lifebyte.hubx.cache.config.RedissonClientConfig' of type [com.lifebyte.hubx.cache.config.RedissonClientConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:20:03.247  INFO 25049 --- [main] c.l.h.cache.config.RedissonClientConfig  : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 10:20:03.314  INFO 25049 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 10:20:03.599  INFO 25049 --- [redisson-netty-2-10] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 10:20:03.600  INFO 25049 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 10:20:03.651  INFO 25049 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'client' of type [org.redisson.Redisson] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:20:03.659  INFO 25049 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$adf38bda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:20:03.830  INFO 25049 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7999 (http)
+2021-09-10 10:20:03.846  INFO 25049 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-10 10:20:03.846  INFO 25049 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2021-09-10 10:20:03.935  INFO 25049 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-10 10:20:03.936  INFO 25049 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1541 ms
+2021-09-10 10:20:04.009  WARN 25049 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 10:20:04.010  INFO 25049 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 10:20:04.017  INFO 25049 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@62b57479
+2021-09-10 10:20:04.558  INFO 25049 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-09-10 10:20:04.615  INFO 25049 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-10 10:20:04.615  INFO 25049 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-10 10:20:04.699  INFO 25049 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-10 10:20:04.699  INFO 25049 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-10 10:20:05.021  WARN 25049 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 10:20:05.021  INFO 25049 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 10:20:05.190  INFO 25049 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-10 10:20:05.299  INFO 25049 --- [main] c.l.hubx.cache.config.RedisCacheConfig   : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 10:20:05.304  INFO 25049 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 10:20:05.344  INFO 25049 --- [redisson-netty-5-12] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 10:20:05.347  INFO 25049 --- [redisson-netty-5-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 10:20:06.654  INFO 25049 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-09-10 10:20:06.734  INFO 25049 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-10 10:20:06.758  INFO 25049 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-10 10:20:06.758  INFO 25049 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2021-09-10 10:20:06.763  INFO 25049 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1631233206762 with initial instances count: 0
+2021-09-10 10:20:06.789  INFO 25049 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2021-09-10 10:20:06.790  INFO 25049 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://0.0.0.0:7999/eureka/]
+2021-09-10 10:20:06.938  INFO 25049 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-10 10:20:06.938  INFO 25049 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-10 10:20:06.938  INFO 25049 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-10 10:20:06.938  INFO 25049 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-10 10:20:07.020  INFO 25049 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://0.0.0.0:7999/eureka/
+2021-09-10 10:20:07.025  INFO 25049 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2021-09-10 10:20:07.026  INFO 25049 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2021-09-10 10:20:07.033  INFO 25049 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-09-10 10:20:07.096  INFO 25049 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-MGMT-SERVICE with eureka with status UP
+2021-09-10 10:20:07.098  INFO 25049 --- [Thread-22] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2021-09-10 10:20:07.098  INFO 25049 --- [Thread-22] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-09-10 10:20:07.099  INFO 25049 --- [Thread-22] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2021-09-10 10:20:07.106  INFO 25049 --- [Thread-22] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2021-09-10 10:20:07.106  INFO 25049 --- [Thread-22] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2021-09-10 10:20:07.106  INFO 25049 --- [Thread-22] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2021-09-10 10:20:07.106  INFO 25049 --- [Thread-22] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2021-09-10 10:20:07.106  INFO 25049 --- [Thread-22] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2021-09-10 10:20:07.113  INFO 25049 --- [Thread-22] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2021-09-10 10:20:07.121  INFO 25049 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7999 (http) with context path ''
+2021-09-10 10:20:07.122  INFO 25049 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7999
+2021-09-10 10:20:07.124  INFO 25049 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : Started AdminMgmtServiceApp in 5.719 seconds (JVM running for 6.474)
+2021-09-10 10:20:07.528  INFO 25049 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-10 10:20:07.529  INFO 25049 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-10 10:20:07.529  INFO 25049 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-10 10:20:07.536  INFO 25049 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-09-10 10:20:07.696  INFO 25049 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-10 10:21:07.108  INFO 25049 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 10:21:13.609  INFO 25049 --- [Thread-24] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-MGMT-SERVICE with eureka with status DOWN
+2021-09-10 10:21:13.611  INFO 25049 --- [Thread-24] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2021-09-10 10:21:13.623  INFO 25049 --- [Thread-24] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2021-09-10 10:21:13.713  INFO 25049 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-10 10:21:13.726  INFO 25049 --- [Thread-24] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-10 10:21:13.726  INFO 25049 --- [Thread-24] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-10 10:21:13.726  INFO 25049 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-10 10:21:13.745  INFO 25049 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-10 10:26:17.990  INFO 1137 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b6ff1348] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:26:19.068  INFO 1137 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : No active profile set, falling back to default profiles: default
+2021-09-10 10:26:20.108  WARN 1137 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-09-10 10:26:20.354  INFO 1137 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c64afe2a-ba51-3b66-bbdb-5389a8ca6f37
+2021-09-10 10:26:20.468  INFO 1137 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9ae5104b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:26:20.493  INFO 1137 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.lifebyte.hubx.cache.config.RedissonClientConfig' of type [com.lifebyte.hubx.cache.config.RedissonClientConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:26:20.504  INFO 1137 --- [main] c.l.h.cache.config.RedissonClientConfig  : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 10:26:20.611  INFO 1137 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 10:26:22.888  WARN 1137 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheContainerPostProcessor': Unsatisfied dependency expressed through field 'client'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in com.lifebyte.hubx.cache.config.RedissonClientConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+2021-09-10 10:26:22.901  INFO 1137 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-10 10:26:22.912 ERROR 1137 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheContainerPostProcessor': Unsatisfied dependency expressed through field 'client'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in com.lifebyte.hubx.cache.config.RedissonClientConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:240)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.lifebyte.hubx.admin.AdminMgmtServiceApp.main(AdminMgmtServiceApp.java:15)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in com.lifebyte.hubx.cache.config.RedissonClientConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1244)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 32 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:160)
+	at org.redisson.misc.RedissonPromise.lambda$onComplete$0(RedissonPromise.java:183)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:511)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:485)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:424)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:121)
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:96)
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:330)
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$1(ConnectionPool.java:296)
+	at org.redisson.misc.RedissonPromise.lambda$onComplete$0(RedissonPromise.java:183)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:511)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:504)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:483)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:424)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:121)
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:96)
+	at org.redisson.client.RedisClient$2$2.run(RedisClient.java:249)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:466)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: 127.0.0.1/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:636)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:500)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462)
+	... 3 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	... 11 common frames omitted
+
+2021-09-10 10:36:34.605  INFO 4359 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$65876bda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:36:35.679  INFO 4359 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : No active profile set, falling back to default profiles: default
+2021-09-10 10:36:36.257  WARN 4359 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-09-10 10:36:36.418  INFO 4359 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c64afe2a-ba51-3b66-bbdb-5389a8ca6f37
+2021-09-10 10:36:36.487  INFO 4359 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$496d68dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:36:36.501  INFO 4359 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.lifebyte.hubx.cache.config.RedissonClientConfig' of type [com.lifebyte.hubx.cache.config.RedissonClientConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:36:36.505  INFO 4359 --- [main] c.l.h.cache.config.RedissonClientConfig  : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 10:36:36.566  INFO 4359 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 10:36:38.813  WARN 4359 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheContainerPostProcessor': Unsatisfied dependency expressed through field 'client'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in com.lifebyte.hubx.cache.config.RedissonClientConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+2021-09-10 10:36:38.823  INFO 4359 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-10 10:36:38.832 ERROR 4359 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheContainerPostProcessor': Unsatisfied dependency expressed through field 'client'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in com.lifebyte.hubx.cache.config.RedissonClientConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:240)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.lifebyte.hubx.admin.AdminMgmtServiceApp.main(AdminMgmtServiceApp.java:15)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in com.lifebyte.hubx.cache.config.RedissonClientConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1244)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'client' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 32 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:160)
+	at org.redisson.misc.RedissonPromise.lambda$onComplete$0(RedissonPromise.java:183)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:511)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:485)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:424)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:121)
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:96)
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:330)
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$1(ConnectionPool.java:296)
+	at org.redisson.misc.RedissonPromise.lambda$onComplete$0(RedissonPromise.java:183)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:511)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:504)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:483)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:424)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:121)
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:96)
+	at org.redisson.client.RedisClient$2$2.run(RedisClient.java:249)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:466)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: 127.0.0.1/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:636)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:500)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462)
+	... 3 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	... 11 common frames omitted
+
+2021-09-10 10:39:02.220  INFO 5247 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c923b830] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:39:03.300  INFO 5247 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : No active profile set, falling back to default profiles: default
+2021-09-10 10:39:03.914  WARN 5247 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-09-10 10:39:04.086  INFO 5247 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c64afe2a-ba51-3b66-bbdb-5389a8ca6f37
+2021-09-10 10:39:04.167  INFO 5247 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ad09b533] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:39:04.178  INFO 5247 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.lifebyte.hubx.cache.config.RedissonClientConfig' of type [com.lifebyte.hubx.cache.config.RedissonClientConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:39:04.183  INFO 5247 --- [main] c.l.h.cache.config.RedissonClientConfig  : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 10:39:04.248  INFO 5247 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 10:39:04.559  INFO 5247 --- [redisson-netty-2-32] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 10:39:04.569  INFO 5247 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 10:39:04.612  INFO 5247 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'client' of type [org.redisson.Redisson] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:39:04.619  INFO 5247 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c923b830] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 10:39:04.778  INFO 5247 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7999 (http)
+2021-09-10 10:39:04.799  INFO 5247 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-10 10:39:04.799  INFO 5247 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2021-09-10 10:39:04.902  INFO 5247 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-10 10:39:04.902  INFO 5247 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1593 ms
+2021-09-10 10:39:04.973  WARN 5247 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 10:39:04.973  INFO 5247 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 10:39:04.980  INFO 5247 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4f486211
+2021-09-10 10:39:06.293  INFO 5247 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-09-10 10:39:06.482  INFO 5247 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-09-10 10:39:06.545  INFO 5247 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-10 10:39:06.545  INFO 5247 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-10 10:39:06.633  INFO 5247 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-10 10:39:06.633  INFO 5247 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-10 10:39:06.949  WARN 5247 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 10:39:06.949  INFO 5247 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 10:39:07.108  INFO 5247 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-10 10:39:07.220  INFO 5247 --- [main] c.l.hubx.cache.config.RedisCacheConfig   : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 10:39:07.225  INFO 5247 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 10:39:07.271  INFO 5247 --- [redisson-netty-5-18] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 10:39:07.271  INFO 5247 --- [redisson-netty-5-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 10:39:08.555  INFO 5247 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2021-09-10 10:39:08.636  INFO 5247 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-10 10:39:08.660  INFO 5247 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-10 10:39:08.660  INFO 5247 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2021-09-10 10:39:08.665  INFO 5247 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1631234348664 with initial instances count: 0
+2021-09-10 10:39:08.694  INFO 5247 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2021-09-10 10:39:08.695  WARN 5247 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 10:39:08.706  INFO 5247 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2021-09-10 10:39:08.707  INFO 5247 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2021-09-10 10:39:08.715  INFO 5247 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-09-10 10:39:08.789  INFO 5247 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-MGMT-SERVICE with eureka with status UP
+2021-09-10 10:39:08.793  INFO 5247 --- [Thread-26] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2021-09-10 10:39:08.793  INFO 5247 --- [Thread-26] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-09-10 10:39:08.794  INFO 5247 --- [Thread-26] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2021-09-10 10:39:08.808  INFO 5247 --- [Thread-26] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2021-09-10 10:39:08.808  INFO 5247 --- [Thread-26] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2021-09-10 10:39:08.808  INFO 5247 --- [Thread-26] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2021-09-10 10:39:08.808  INFO 5247 --- [Thread-26] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2021-09-10 10:39:08.808  INFO 5247 --- [Thread-26] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2021-09-10 10:39:08.816  INFO 5247 --- [Thread-26] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2021-09-10 10:39:08.829  INFO 5247 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7999 (http) with context path ''
+2021-09-10 10:39:08.829  INFO 5247 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7999
+2021-09-10 10:39:08.831  INFO 5247 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : Started AdminMgmtServiceApp in 8.26 seconds (JVM running for 9.009)
+2021-09-10 10:39:09.176  INFO 5247 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-10 10:39:09.178  INFO 5247 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-10 10:39:09.178  INFO 5247 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-10 10:39:09.185  INFO 5247 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-09-10 10:39:09.640  INFO 5247 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-10 10:40:08.810  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 10:41:08.815  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 10:42:08.821  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 10:43:08.825  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 10:44:08.830  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 10:45:08.835  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 10:46:08.840  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 10:47:08.845  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 10:48:08.847  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 10:49:08.707  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 10:49:08.853  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 10:50:08.857  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 10:51:08.859  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 10:52:08.887  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 10:53:08.893  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 10:54:08.750  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 10:54:08.898  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 10:55:08.902  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 10:56:08.904  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 10:57:08.906  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 10:58:08.911  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 10:59:08.753  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 10:59:08.913  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 11:00:08.918  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:01:08.923  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:02:08.929  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 11:03:08.935  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 11:04:08.938  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 11:05:08.945  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 11:06:08.950  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:07:09.232  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 11:08:09.236  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 11:09:09.050  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 11:09:09.057  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 11:09:09.241  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:10:09.247  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:11:09.253  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 11:12:09.258  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:13:09.260  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 11:14:09.265  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:15:09.268  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 11:16:09.273  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:17:09.278  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:18:09.283  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:19:09.073  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 11:19:09.289  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 11:20:09.294  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:21:09.299  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:21:40.144  WARN 5247 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s829ms), soft-evicting connections from pool.
+2021-09-10 11:22:09.301  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 178ms
+2021-09-10 11:23:09.303  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:24:09.061  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 11:24:09.303  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 11:25:09.303  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:26:09.303  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:27:09.305  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:28:09.306  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:29:08.891  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 11:29:09.306  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:30:09.306  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:31:09.306  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:32:09.308  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:33:09.311  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 11:34:09.311  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 11:35:09.314  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 11:36:09.317  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 11:37:09.319  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 11:38:09.319  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 11:39:08.876  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 11:39:09.066  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 11:39:09.321  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:40:09.322  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:41:09.324  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:42:09.325  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:43:09.327  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 11:44:09.330  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 11:45:09.332  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:46:09.332  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:47:09.336  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 37ms
+2021-09-10 11:48:09.336  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:49:08.829  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 11:49:09.336  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 11:50:09.337  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:51:09.340  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 11:52:09.342  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 11:53:09.344  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:54:09.070  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 11:54:09.345  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:55:09.346  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:56:09.347  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:57:09.347  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 11:58:09.349  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 11:59:08.814  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 11:59:09.349  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 12:00:09.350  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 12:01:09.350  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:02:09.354  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 25ms
+2021-09-10 12:03:09.354  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:04:09.355  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:05:09.356  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:05:18.351  INFO 5247 --- [http-nio-7999-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONNECTOR-SERVICE/192.168.31.2:7011 with status UP (replication=false)
+2021-09-10 12:06:09.357  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:07:09.358  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:08:09.360  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:09:08.771  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 12:09:09.073  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 12:09:09.361  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 12:10:09.361  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:11:09.363  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:12:09.364  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:13:09.367  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:14:09.367  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 12:15:09.367  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 12:16:09.367  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:17:09.367  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2021-09-10 12:18:09.369  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:19:08.742  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 12:19:09.372  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 12:20:09.374  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:21:09.374  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 12:22:09.375  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:23:09.377  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:24:09.075  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 12:24:09.379  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:25:09.382  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:26:09.384  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:27:09.384  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:28:09.385  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:29:08.724  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 12:29:09.387  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:30:09.388  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:31:09.389  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:31:38.693  WARN 5247 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=28s339ms), soft-evicting connections from pool.
+2021-09-10 12:32:09.393  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1665ms
+2021-09-10 12:33:09.393  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:34:09.393  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 12:35:09.395  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:36:09.395  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 12:37:09.396  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:38:09.399  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:39:07.047  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 12:39:09.079  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 12:39:09.400  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:40:09.403  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:41:09.405  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:42:09.404  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 12:43:09.405  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:44:09.405  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:45:09.405  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 12:46:09.408  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:47:11.246  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:48:11.248  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:49:08.871  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 12:49:11.249  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:50:11.252  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:51:11.254  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:52:11.254  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 12:53:11.255  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:54:10.892  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 12:54:11.256  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 12:55:11.257  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 12:56:11.259  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:57:11.262  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:58:11.264  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 12:59:08.854  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 12:59:11.266  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:00:11.269  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 13:01:11.269  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 13:02:11.309  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 13:03:11.313  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 13:04:11.315  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:05:11.318  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:06:11.324  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 13:07:11.330  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:08:11.337  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 13:09:08.905  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 13:09:10.934  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 13:09:11.344  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 13:10:11.347  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:11:11.350  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 13:12:11.353  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:13:11.358  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:14:11.364  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:15:11.367  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 13:16:11.372  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:17:11.376  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 44ms
+2021-09-10 13:18:11.379  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 13:19:08.879  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 13:19:11.383  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 13:20:11.387  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:21:11.391  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:22:11.395  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 13:23:11.397  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 13:24:10.936  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 13:24:11.401  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:25:11.403  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:26:11.409  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 13:27:11.415  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 13:28:11.419  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:29:08.891  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 13:29:11.420  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:30:11.421  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:31:11.425  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 13:32:11.425  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 56ms
+2021-09-10 13:33:11.429  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 13:34:11.430  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 13:35:11.433  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:36:11.434  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 13:37:11.435  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 13:38:11.437  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 13:39:08.835  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 13:39:10.937  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 13:39:11.442  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 13:40:11.445  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:41:11.447  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 13:42:11.449  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 13:43:11.449  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:44:11.449  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:45:11.450  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 13:46:11.451  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 13:47:11.454  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:48:11.462  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 13:49:08.831  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 13:49:11.471  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 13:50:11.480  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 13:51:11.487  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 13:52:11.488  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:53:11.488  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 13:54:10.939  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 13:54:11.495  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 13:55:11.499  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 13:56:11.506  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 13:57:11.513  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 13:58:11.513  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 13:59:08.833  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 13:59:11.521  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 14:00:11.523  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 14:01:11.528  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 14:02:11.529  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 14:03:11.536  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 14:04:11.542  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 14:05:11.549  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 14:06:11.554  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 14:07:11.562  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 14:08:11.569  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 14:09:08.804  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 14:09:10.941  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 14:09:11.576  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 34ms
+2021-09-10 14:10:11.578  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2021-09-10 14:11:11.578  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 14:12:11.585  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 14:13:11.590  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 14:14:11.590  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 14:15:11.592  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 14:16:11.600  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 14:17:11.604  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 14:18:11.612  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 14:19:08.791  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 14:19:11.620  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 14:20:11.624  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 14:21:11.633  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 14:22:11.639  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 14:23:11.648  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 14:24:11.536  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 14:24:12.255  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 14:25:12.258  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 14:26:12.259  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 14:27:12.260  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 14:28:12.266  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 14:29:09.392  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 14:29:12.273  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 14:30:12.280  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 14:31:12.286  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 14:32:12.289  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 14:33:12.295  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 14:34:12.297  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 14:35:12.297  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 14:36:12.297  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 14:37:12.297  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 14:38:12.302  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 14:39:09.228  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 14:39:11.545  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 14:39:11.727  WARN 5247 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s839ms), soft-evicting connections from pool.
+2021-09-10 14:39:12.310  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 178ms
+2021-09-10 14:40:12.317  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 14:41:12.325  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 14:42:12.334  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 14:43:12.342  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 14:44:12.342  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 14:45:12.342  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 14:46:12.342  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 14:47:12.345  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 14:48:12.352  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 14:49:09.231  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 14:49:12.357  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 14:50:12.358  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 14:51:12.364  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 14:52:12.368  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 14:53:12.373  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 14:54:11.546  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 14:54:12.373  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 14:55:12.380  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 14:56:12.389  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 14:57:12.389  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 14:58:12.394  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 14:59:09.238  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 14:59:12.402  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 15:00:12.402  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:01:12.405  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 15:02:12.408  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:03:12.412  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 15:04:12.418  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 15:05:12.420  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 15:06:12.426  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 15:07:12.432  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 15:08:12.442  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2021-09-10 15:09:09.238  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 15:09:11.550  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 15:09:12.442  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 15:10:12.444  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 15:11:12.453  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 15:12:12.457  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:13:12.460  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:14:12.460  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:15:12.463  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 15:16:12.463  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:17:12.467  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 15:18:12.472  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 15:19:09.240  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 15:19:12.477  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 15:20:12.481  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 15:21:12.484  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:22:12.486  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 15:23:12.488  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 15:24:11.551  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 15:24:12.490  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 15:25:12.494  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 15:26:12.498  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:27:12.498  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:28:12.503  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 15:29:09.240  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 15:29:12.504  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 15:30:12.507  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:31:12.511  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:32:12.514  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:33:12.517  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:34:12.520  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 15:35:12.520  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:36:12.523  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 15:37:12.527  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 15:38:12.531  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:39:09.239  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 15:39:11.552  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 15:39:12.531  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:40:12.536  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 15:41:12.537  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 15:42:12.537  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:43:12.540  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:44:12.540  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:45:12.540  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:46:12.544  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 15:47:12.549  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 15:48:12.549  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:49:09.235  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 15:49:12.558  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 15:50:12.564  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 15:51:12.573  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 15:52:12.581  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 15:53:12.581  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 15:54:11.555  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 15:54:12.064  WARN 5247 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s855ms), soft-evicting connections from pool.
+2021-09-10 15:54:12.586  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 154ms
+2021-09-10 15:55:12.587  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 15:56:12.587  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 15:57:12.587  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 15:58:12.588  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 15:59:09.085  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 15:59:12.588  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:00:12.589  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:01:12.589  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 16:02:12.589  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 16:03:12.591  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:04:12.593  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:05:12.594  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:06:12.597  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 16:07:12.598  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:08:12.598  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 16:09:09.071  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 16:09:11.555  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 16:09:12.599  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:10:12.997  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:11:12.998  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:12:07.107  INFO 5247 --- [http-nio-7999-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONNECTOR-SERVICE/192.168.31.2:7011 with status UP (replication=false)
+2021-09-10 16:12:13.001  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 16:13:13.003  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:14:13.003  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:15:13.007  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 16:15:51.079  INFO 5247 --- [http-nio-7999-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONNECTOR-SERVICE/192.168.31.2:7011 with status UP (replication=false)
+2021-09-10 16:16:13.010  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 16:17:13.012  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 16:17:25.784  INFO 5247 --- [http-nio-7999-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONNECTOR-SERVICE/192.168.31.2:7011 with status UP (replication=false)
+2021-09-10 16:18:13.014  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:19:09.451  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 16:19:13.016  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:20:13.017  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:21:13.019  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:22:13.019  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:23:13.021  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:24:11.925  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 16:24:13.021  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 16:25:13.021  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 16:26:13.025  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 16:27:13.026  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:28:13.026  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 16:29:09.436  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 16:29:13.026  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 16:30:13.027  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2021-09-10 16:31:13.028  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:32:13.031  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 16:33:13.033  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 16:34:13.036  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 16:35:13.036  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 16:36:13.038  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:37:13.039  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 16:38:13.042  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 16:39:09.413  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 16:39:11.926  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 16:39:13.044  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:40:13.046  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:41:13.049  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 16:42:13.049  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 16:43:13.053  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 16:44:13.057  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 16:45:13.062  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 67ms
+2021-09-10 16:46:13.063  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:47:13.063  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:48:13.063  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:49:09.338  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 16:49:13.065  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:50:13.065  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:51:13.066  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:52:13.067  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:53:13.068  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:54:11.927  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 16:54:13.067  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 16:55:13.067  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 16:56:13.071  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 16:57:13.079  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2021-09-10 16:58:13.080  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 16:59:09.315  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 16:59:13.085  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 17:00:13.089  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 22ms
+2021-09-10 17:01:13.092  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 17:02:13.099  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 17:03:13.102  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 17:04:13.106  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 17:05:13.108  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 17:06:13.111  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 17:07:13.115  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 17:08:13.116  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 17:09:09.280  WARN 5247 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 17:09:11.935  INFO 5247 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2021-09-10 17:09:13.121  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 17:10:13.126  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 17:11:13.130  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 17:12:13.130  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 17:13:13.131  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 17:14:13.132  INFO 5247 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 17:14:45.763  INFO 5247 --- [Thread-28] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-MGMT-SERVICE with eureka with status DOWN
+2021-09-10 17:14:45.764  INFO 5247 --- [Thread-28] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2021-09-10 17:14:45.768  INFO 5247 --- [Thread-28] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2021-09-10 17:14:45.906  INFO 5247 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-10 17:14:45.951  INFO 5247 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-10 17:14:45.951  INFO 5247 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-10 17:14:45.952  INFO 5247 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-10 17:14:45.961  INFO 5247 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-10 22:09:16.980  INFO 15056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a5148570] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 22:09:17.064  INFO 15056 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : No active profile set, falling back to default profiles: default
+2021-09-10 22:09:17.710  WARN 15056 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-09-10 22:09:17.884  INFO 15056 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c64afe2a-ba51-3b66-bbdb-5389a8ca6f37
+2021-09-10 22:09:17.964  INFO 15056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88fa8273] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 22:09:17.975  INFO 15056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.lifebyte.hubx.cache.config.RedissonClientConfig' of type [com.lifebyte.hubx.cache.config.RedissonClientConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 22:09:17.979  INFO 15056 --- [main] c.l.h.cache.config.RedissonClientConfig  : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 22:09:18.044  INFO 15056 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 22:09:18.344  INFO 15056 --- [redisson-netty-2-3] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 22:09:18.353  INFO 15056 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 22:09:18.395  INFO 15056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'client' of type [org.redisson.Redisson] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 22:09:18.401  INFO 15056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a5148570] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 22:09:18.559  INFO 15056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7999 (http)
+2021-09-10 22:09:18.579  INFO 15056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-10 22:09:18.579  INFO 15056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2021-09-10 22:09:18.662  INFO 15056 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-10 22:09:18.662  INFO 15056 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1588 ms
+2021-09-10 22:09:18.735  WARN 15056 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 22:09:18.735  INFO 15056 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 22:09:18.744  INFO 15056 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@423a0e1d
+2021-09-10 22:09:19.265  INFO 15056 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-09-10 22:09:19.328  INFO 15056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-10 22:09:19.329  INFO 15056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-10 22:09:19.416  INFO 15056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-10 22:09:19.416  INFO 15056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-10 22:09:19.743  WARN 15056 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 22:09:19.743  INFO 15056 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 22:09:19.909  INFO 15056 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-10 22:09:20.022  INFO 15056 --- [main] c.l.hubx.cache.config.RedisCacheConfig   : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 22:09:20.027  INFO 15056 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 22:09:20.080  INFO 15056 --- [redisson-netty-5-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 22:09:20.080  INFO 15056 --- [redisson-netty-5-17] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 22:09:20.422  INFO 15056 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-10 22:09:20.450  INFO 15056 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-10 22:09:20.450  INFO 15056 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2021-09-10 22:09:20.458  INFO 15056 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1631275760457 with initial instances count: 0
+2021-09-10 22:09:20.487  INFO 15056 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2021-09-10 22:09:20.489  WARN 15056 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 22:09:20.500  INFO 15056 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2021-09-10 22:09:20.501  INFO 15056 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2021-09-10 22:09:20.508  INFO 15056 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-09-10 22:09:20.571  INFO 15056 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-MGMT-SERVICE with eureka with status UP
+2021-09-10 22:09:20.573  INFO 15056 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2021-09-10 22:09:20.574  INFO 15056 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-09-10 22:09:20.574  INFO 15056 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2021-09-10 22:09:20.583  INFO 15056 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2021-09-10 22:09:20.583  INFO 15056 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2021-09-10 22:09:20.583  INFO 15056 --- [Thread-19] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2021-09-10 22:09:20.583  INFO 15056 --- [Thread-19] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2021-09-10 22:09:20.583  INFO 15056 --- [Thread-19] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2021-09-10 22:09:20.591  INFO 15056 --- [Thread-19] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2021-09-10 22:09:20.597  INFO 15056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7999 (http) with context path ''
+2021-09-10 22:09:20.598  INFO 15056 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7999
+2021-09-10 22:09:20.600  INFO 15056 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : Started AdminMgmtServiceApp in 4.562 seconds (JVM running for 5.303)
+2021-09-10 22:09:20.810  INFO 15056 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-10 22:09:20.812  INFO 15056 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-10 22:09:20.812  INFO 15056 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-10 22:09:20.820  INFO 15056 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-09-10 22:09:21.257  INFO 15056 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-10 22:09:29.822  INFO 15056 --- [http-nio-7999-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-RATE-SERVICE/192.168.1.12:7010 with status UP (replication=false)
+2021-09-10 22:10:20.590  INFO 15056 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 22:11:20.594  INFO 15056 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 22:11:26.370  INFO 15056 --- [http-nio-7999-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-RATE-SERVICE/192.168.1.12:7010 with status DOWN (replication=false)
+2021-09-10 22:11:29.443  INFO 15056 --- [http-nio-7999-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ORDER-RATE-SERVICE/192.168.1.12:7010 (replication=false)
+2021-09-10 22:11:38.509  INFO 15056 --- [http-nio-7999-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-RATE-SERVICE/192.168.1.12:7010 with status UP (replication=false)
+2021-09-10 22:12:20.600  INFO 15056 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:12:32.632  INFO 15056 --- [http-nio-7999-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-RATE-SERVICE/192.168.1.12:7010 with status DOWN (replication=false)
+2021-09-10 22:12:35.701  INFO 15056 --- [http-nio-7999-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ORDER-RATE-SERVICE/192.168.1.12:7010 (replication=false)
+2021-09-10 22:13:09.789  INFO 15056 --- [Thread-21] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADMIN-MGMT-SERVICE with eureka with status DOWN
+2021-09-10 22:13:09.791  INFO 15056 --- [Thread-21] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2021-09-10 22:13:09.796  INFO 15056 --- [Thread-21] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2021-09-10 22:13:09.863  INFO 15056 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-10 22:13:09.879  INFO 15056 --- [Thread-21] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-10 22:13:09.879  INFO 15056 --- [Thread-21] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-10 22:13:09.879  INFO 15056 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-10 22:13:09.889  INFO 15056 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-10 22:13:18.225  INFO 15173 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c82bfa84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 22:13:18.299  INFO 15173 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : No active profile set, falling back to default profiles: default
+2021-09-10 22:13:18.927  WARN 15173 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-09-10 22:13:19.097  INFO 15173 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c64afe2a-ba51-3b66-bbdb-5389a8ca6f37
+2021-09-10 22:13:19.178  INFO 15173 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac11f787] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 22:13:19.194  INFO 15173 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.lifebyte.hubx.cache.config.RedissonClientConfig' of type [com.lifebyte.hubx.cache.config.RedissonClientConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 22:13:19.201  INFO 15173 --- [main] c.l.h.cache.config.RedissonClientConfig  : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 22:13:19.276  INFO 15173 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 22:13:19.571  INFO 15173 --- [redisson-netty-2-4] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 22:13:19.586  INFO 15173 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 22:13:19.639  INFO 15173 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'client' of type [org.redisson.Redisson] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 22:13:19.645  INFO 15173 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c82bfa84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-10 22:13:19.823  INFO 15173 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7999 (http)
+2021-09-10 22:13:19.847  INFO 15173 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-10 22:13:19.847  INFO 15173 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2021-09-10 22:13:19.944  INFO 15173 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-10 22:13:19.945  INFO 15173 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1636 ms
+2021-09-10 22:13:20.068  WARN 15173 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 22:13:20.068  INFO 15173 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 22:13:20.083  INFO 15173 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7ca16adc
+2021-09-10 22:13:20.603  INFO 15173 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-09-10 22:13:20.658  INFO 15173 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-09-10 22:13:20.658  INFO 15173 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-09-10 22:13:20.742  INFO 15173 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-09-10 22:13:20.743  INFO 15173 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-09-10 22:13:21.114  WARN 15173 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-09-10 22:13:21.114  INFO 15173 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-10 22:13:21.305  INFO 15173 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-10 22:13:21.434  INFO 15173 --- [main] c.l.hubx.cache.config.RedisCacheConfig   : start redis connection url redis://127.0.0.1:6379, db0
+2021-09-10 22:13:21.438  INFO 15173 --- [main] org.redisson.Version                     : Redisson 3.12.0
+2021-09-10 22:13:21.497  INFO 15173 --- [redisson-netty-5-15] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 22:13:21.497  INFO 15173 --- [redisson-netty-5-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2021-09-10 22:13:21.817  INFO 15173 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-10 22:13:21.838  INFO 15173 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-10 22:13:21.838  INFO 15173 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2021-09-10 22:13:21.843  INFO 15173 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1631276001842 with initial instances count: 0
+2021-09-10 22:13:21.870  INFO 15173 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2021-09-10 22:13:21.872  WARN 15173 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 22:13:21.884  INFO 15173 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2021-09-10 22:13:21.884  INFO 15173 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2021-09-10 22:13:21.892  INFO 15173 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-09-10 22:13:21.954  INFO 15173 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-MGMT-SERVICE with eureka with status UP
+2021-09-10 22:13:21.956  INFO 15173 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2021-09-10 22:13:21.956  INFO 15173 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-09-10 22:13:21.957  INFO 15173 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2021-09-10 22:13:21.963  INFO 15173 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2021-09-10 22:13:21.964  INFO 15173 --- [Thread-19] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2021-09-10 22:13:21.964  INFO 15173 --- [Thread-19] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2021-09-10 22:13:21.964  INFO 15173 --- [Thread-19] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2021-09-10 22:13:21.964  INFO 15173 --- [Thread-19] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2021-09-10 22:13:21.971  INFO 15173 --- [Thread-19] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2021-09-10 22:13:21.979  INFO 15173 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7999 (http) with context path ''
+2021-09-10 22:13:21.979  INFO 15173 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7999
+2021-09-10 22:13:21.981  INFO 15173 --- [main] c.l.hubx.admin.AdminMgmtServiceApp       : Started AdminMgmtServiceApp in 4.604 seconds (JVM running for 5.164)
+2021-09-10 22:13:22.443  INFO 15173 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-10 22:13:22.445  INFO 15173 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-10 22:13:22.445  INFO 15173 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-10 22:13:22.450  INFO 15173 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-09-10 22:13:22.838  INFO 15173 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-10 22:14:21.970  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 22:15:09.297  INFO 15173 --- [http-nio-7999-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-RATE-SERVICE/192.168.1.12:7010 with status UP (replication=false)
+2021-09-10 22:15:18.243  INFO 15173 --- [http-nio-7999-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-RATE-SERVICE/192.168.1.12:7010 with status DOWN (replication=false)
+2021-09-10 22:15:21.323  INFO 15173 --- [http-nio-7999-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ORDER-RATE-SERVICE/192.168.1.12:7010 (replication=false)
+2021-09-10 22:15:21.975  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:16:18.748  INFO 15173 --- [http-nio-7999-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-RATE-SERVICE/192.168.1.12:7010 with status UP (replication=false)
+2021-09-10 22:16:21.976  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 22:16:51.547  INFO 15173 --- [http-nio-7999-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-RATE-SERVICE/192.168.1.12:7010 with status DOWN (replication=false)
+2021-09-10 22:16:54.622  INFO 15173 --- [http-nio-7999-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ORDER-RATE-SERVICE/192.168.1.12:7010 (replication=false)
+2021-09-10 22:17:05.971  INFO 15173 --- [http-nio-7999-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-RATE-SERVICE/192.168.1.12:7010 with status UP (replication=false)
+2021-09-10 22:17:08.655  INFO 15173 --- [http-nio-7999-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ORDER-RATE-SERVICE/192.168.1.12:7010 with status DOWN (replication=false)
+2021-09-10 22:17:12.241  INFO 15173 --- [http-nio-7999-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ORDER-RATE-SERVICE/192.168.1.12:7010 (replication=false)
+2021-09-10 22:17:21.981  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:18:21.984  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 22:19:21.989  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:20:21.992  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 22:21:21.994  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 22:22:21.997  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 22:23:21.887  WARN 15173 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 22:23:22.003  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:24:22.008  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:25:22.013  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:26:22.019  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:27:22.025  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:28:21.908  INFO 15173 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 22:28:22.031  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:29:22.035  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 22:30:22.040  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:31:22.044  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 22:32:22.048  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:33:21.906  WARN 15173 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 22:33:22.052  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 22:34:22.053  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 37ms
+2021-09-10 22:35:22.054  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 22:36:22.060  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 22:37:22.066  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:38:22.071  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:39:22.076  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:40:22.082  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:41:22.088  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 22:42:22.095  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 22:43:21.881  WARN 15173 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 22:43:21.913  INFO 15173 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 22:43:22.100  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:44:22.106  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:45:22.112  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:46:22.118  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:47:22.120  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 22:48:22.122  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 22:49:22.123  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2021-09-10 22:50:22.126  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 22:51:22.135  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 22:52:22.145  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2021-09-10 22:53:21.877  WARN 15173 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 22:53:22.155  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 22:54:22.161  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:55:22.164  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 22:56:22.169  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 22:57:22.175  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 22:58:21.914  INFO 15173 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 22:58:22.177  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 22:59:22.183  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:00:22.193  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 23:01:22.197  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:02:22.203  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:03:21.896  WARN 15173 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 23:03:22.208  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 23:04:22.208  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2021-09-10 23:05:22.208  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 23:06:22.214  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:07:22.218  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 23:08:22.224  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:09:22.229  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:10:22.233  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 23:11:22.240  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:12:22.244  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:13:21.893  WARN 15173 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 23:13:21.923  INFO 15173 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 23:13:22.250  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:14:22.252  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 23:15:22.256  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 23:16:22.261  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:17:22.265  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 23:18:22.270  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:19:22.276  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:20:22.277  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 58ms
+2021-09-10 23:21:22.278  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 23:22:22.282  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:23:21.851  WARN 15173 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 23:23:22.287  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:24:22.292  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:25:22.297  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:26:22.302  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:27:22.307  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:28:21.927  INFO 15173 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 23:28:22.312  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:29:22.317  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:30:22.321  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:31:22.326  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:32:22.329  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 23:33:21.865  WARN 15173 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 23:33:22.334  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:34:22.337  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 23:35:22.339  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 17ms
+2021-09-10 23:36:22.340  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:37:22.345  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:38:22.348  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 23:39:22.353  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:40:22.354  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 23:41:22.358  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 23:42:22.360  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 23:43:21.857  WARN 15173 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 23:43:21.927  INFO 15173 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 23:43:22.362  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 23:44:22.372  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 23:45:22.381  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 23:46:22.382  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-09-10 23:47:22.388  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:48:22.396  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 23:49:22.404  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2021-09-10 23:50:24.718  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 23:51:24.721  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-09-10 23:52:24.729  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2021-09-10 23:53:24.184  WARN 15173 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2021-09-10 23:53:24.739  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2021-09-10 23:54:24.742  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 23:55:24.747  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-09-10 23:56:24.753  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-09-10 23:57:24.759  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-09-10 23:58:24.260  INFO 15173 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 1
+2021-09-10 23:58:24.762  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-09-10 23:59:24.765  INFO 15173 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
