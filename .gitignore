@@ -12,5 +12,7 @@ target/
 .project
 
 logs/
+.DS_Store
+.log
 
 **/*-local.yml
